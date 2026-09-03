@@ -18,6 +18,7 @@ include:
   - board: nice_nano//zmk
     shield: hillside46_left raw_hid_adapter # <-- required for Raw HID support
     snippet: studio-rpc-usb-uart # <-- required for ZMK Studio support
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nice_nano//zmk
     shield: hillside46_right
 
